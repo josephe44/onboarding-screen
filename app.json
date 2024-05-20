@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eworldtech.onboardingscreen"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.eworld_tech.onboardingscreen"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +36,21 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "87bfe7cd-4a6a-4e98-b2d8-c45339a7ba7d"
+      }
+    },
+    "owner": "eworld_tech",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/87bfe7cd-4a6a-4e98-b2d8-c45339a7ba7d"
     }
   }
 }
